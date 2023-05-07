@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+{% comment %} slider {% endcomment %}
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Styles and <span>good</span> products for you</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit suscipit quam at omnis deleniti quaerat, excepturi maxime sapiente porro modi eveniet est magnam, cum quod id optio laboriosam sequi et.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+{% comment %} features {% endcomment %}
+<section class="features" id="features">
+    <h1 class="heading"> our <span>features</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="{% static 'image\good.png' %}" alt="">
+            <h3> Good and Styles </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus recusandae! Facilis dolorum nostrum commodi perspiciatis excepturi. Nihil fuga nobis esse exercitationem. Laudantium repellendus, quo rerum perspiciatis maiores quibusdam omnis.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="{% static 'image\free delivery.jpg' %}" alt="">
+            <h3> free delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus recusandae! Facilis dolorum nostrum commodi perspiciatis excepturi. Nihil fuga nobis esse exercitationem. Laudantium repellendus, quo rerum perspiciatis maiores quibusdam omnis.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="{% static 'image\easy pyament.png' %}" alt="">
+            <h3> easy payments</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus recusandae! Facilis dolorum nostrum commodi perspiciatis excepturi. Nihil fuga nobis esse exercitationem. Laudantium repellendus, quo rerum perspiciatis maiores quibusdam omnis.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+
+</section>
+
+{% comment %} products {% endcomment %}
+
+<section class="products" id="products">
+    <h1 class="heading"> our <span> products</span></h1>
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image\1.png" alt="">
+                <h3>casual</h3>
+                <div class="price">Rs660/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+    <div class="swiper-slide box">
+    <img src="image\2.png" alt="">
+    <h3>Skechers</h3>
+    <div class="price">Rs550/-</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+<a href="#" class="btn">add to cart</a>
+</div>
+                <div class="swiper-slide box">
+                    <img src="image\3.png" alt="">
+                    <h3>Metro</h3>
+                    <div class="price">Rs2220/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+                    <div class="swiper-slide box">
+                        <img src="image\4.png" alt="">
+                        <h3>Liberty</h3>
+                        <div class="price">Rs300/-</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+                        <div class="swiper-slide box">
+                            <img src="image\5.png" alt="">
+                            <h3>Reebok</h3>
+                            <div class="price">Rs970/-</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image\6.png" alt="">
+                <h3>Adidas</h3>
+                <div class="price">Rs990/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+                <div class="swiper-slide box">
+                    <img src="image\7.png" alt="">
+                    <h3>Puma</h3>
+                    <div class="price">Rs2850/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+                    <div class="swiper-slide box">
+                        <img src="image\8.png" alt="">
+                        <h3>Woodland</h3>
+                        <div class="price">Rs740/-</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+                        <div class="swiper-slide box">
+                            <img src="image\9.png" alt="">
+                            <h3>Bata</h3>
+                            <div class="price">Rs2030/-</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image\10.png" alt="">
+                <h3>Nike</h3>
+                <div class="price">Rs770/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+{% endblock %}

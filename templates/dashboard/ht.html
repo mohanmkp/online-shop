@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="styleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    {% load static  %}
+    <link rel="styleSheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header class="header">
+        <a href="#"  class="logo"><i class="fas fa-shopping-basket"></i>Online Shoes Shopping</a>
+        <nav  class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div> 
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image\convas.png" alt="">
+                <div class="content">
+                    <h3>Convas</h3>
+                    <span class="price">RS550/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image\boot.png" alt="">
+                <div class="content">
+                    <h3>boot</h3>
+                    <span class="price">RS220/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image\casual.png" alt="">
+                <div class="content">
+                    <h3>casual</h3>
+                    <span class="price">RS300/-</span>
+                    <span class="quantity">qty : 1</span>
+               </div>
+          </div>
+          <div class="total">total : Rs670/-</div>  
+          <a href="#" class="btn">checkout</a> 
+        </div> 
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="you email" class="box">
+            <input type="password" placeholder="you password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit " value="login now" class="btn">
+        </form>
+
+        
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Styles and <span>good</span> products for you</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit suscipit quam at omnis deleniti quaerat, excepturi maxime sapiente porro modi eveniet est magnam, cum quod id optio laboriosam sequi et.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image\good.png" alt="">
+                <h3> Good and Styles </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus recusandae! Facilis dolorum nostrum commodi perspiciatis excepturi. Nihil fuga nobis esse exercitationem. Laudantium repellendus, quo rerum perspiciatis maiores quibusdam omnis.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="image\free delivery.jpg" alt="">
+                <h3> free delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus recusandae! Facilis dolorum nostrum commodi perspiciatis excepturi. Nihil fuga nobis esse exercitationem. Laudantium repellendus, quo rerum perspiciatis maiores quibusdam omnis.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="image\easy pyament.png" alt="">
+                <h3> easy payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus recusandae! Facilis dolorum nostrum commodi perspiciatis excepturi. Nihil fuga nobis esse exercitationem. Laudantium repellendus, quo rerum perspiciatis maiores quibusdam omnis.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </section>
+   <section class="products" id="products">
+    <h1 class="heading"> our <span> products</span></h1>
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image\1.png" alt="">
+                <h3>casual</h3>
+                <div class="price">Rs660/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+    <div class="swiper-slide box">
+    <img src="image\2.png" alt="">
+    <h3>Skechers</h3>
+    <div class="price">Rs550/-</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+<a href="#" class="btn">add to cart</a>
+</div>
+                <div class="swiper-slide box">
+                    <img src="image\3.png" alt="">
+                    <h3>Metro</h3>
+                    <div class="price">Rs2220/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+                    <div class="swiper-slide box">
+                        <img src="image\4.png" alt="">
+                        <h3>Liberty</h3>
+                        <div class="price">Rs300/-</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+                        <div class="swiper-slide box">
+                            <img src="image\5.png" alt="">
+                            <h3>Reebok</h3>
+                            <div class="price">Rs970/-</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image\6.png" alt="">
+                <h3>Adidas</h3>
+                <div class="price">Rs990/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+                <div class="swiper-slide box">
+                    <img src="image\7.png" alt="">
+                    <h3>Puma</h3>
+                    <div class="price">Rs2850/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+                    <div class="swiper-slide box">
+                        <img src="image\8.png" alt="">
+                        <h3>Woodland</h3>
+                        <div class="price">Rs740/-</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+                        <div class="swiper-slide box">
+                            <img src="image\9.png" alt="">
+                            <h3>Bata</h3>
+                            <div class="price">Rs2030/-</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image\10.png" alt="">
+                <h3>Nike</h3>
+                <div class="price">Rs770/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+   </section>
+   
+
+   <section class="categories" id="categories">
+    <h1 class="heading"> product<span>categories</span></h1>
+    <div  class="box-container">
+        <div class="box">
+            <img src="image\c1.png" alt="">
+            <h3>casual shoes</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image\c2.png" alt="">
+            <h3>formal shoes</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image\c3,png.webp" alt="">
+            <h3>sneakers shoes</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image\c4.png" alt="">
+            <h3>beach shoes</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+   </section>
+
+<section class="review" id="review">
+
+  <h1 class="heading">customer's<span>review</span></h1>
+
+<div class="swiper review-slider">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+            <img src="image\review1.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dignissimos quidem, 
+            veniam iure consectetur vero accusantium cupiditate sit ut nostrum.</p>
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image\review2.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dignissimos quidem, 
+            veniam iure consectetur vero accusantium cupiditate sit ut nostrum.</p>
+            <h3>komal shetty</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image\review3.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dignissimos quidem, 
+            veniam iure consectetur vero accusantium cupiditate sit ut nostrum.</p>
+            <h3>radha deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image\review4.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dignissimos quidem, 
+            veniam iure consectetur vero accusantium cupiditate sit ut nostrum.</p>
+            <h3>sapna kaur</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>online shopping <i class="fas fa-shopping-basket"></i></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, consequatur.</p>
+            <div class="share">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://in.linkedin.com/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91-9876543210</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91-9876543542</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>radhashyam@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>chandigarh ,india - 160004</a>
+        </div>
+
+        <div class="box">
+               <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+        </div>
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image\pay.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>miss. web designer</span>|all rights reserved</div>
+</section>
+   
+   
+   
+   
+   
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src='{% static "js/javascript.js" %}'></script>
+</body>
+</html>
